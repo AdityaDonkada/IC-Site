@@ -35,7 +35,7 @@ export const SetDirection = () => {
           {
             icon: AutomatedBacklogIcon,
             title: "Project documents.",
-            text: "Write project briefs and specs directly in Linear.",
+            text: "Write project briefs and specs directly in ImpactCode.",
           },
           {
             icon: WorkflowsIcon,
