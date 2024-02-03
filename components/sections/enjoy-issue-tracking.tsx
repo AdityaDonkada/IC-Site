@@ -34,7 +34,7 @@ export const EnjoyIssueTracking = () => {
           {
             icon: AutomatedBacklogIcon,
             title: "Automated backlog.",
-            text: "Linear will auto-close and auto-archive issues.",
+            text: "ImpactCode will auto-close and auto-archive issues.",
           },
           {
             icon: WorkflowsIcon,
