@@ -6,7 +6,6 @@ import { Clients } from "../components/sections/clients";
 import { EnjoyIssueTracking } from "../components/sections/enjoy-issue-tracking";
 import { HomepageHero } from "../components/sections/homepage-hero";
 import { SetDirection } from "../components/sections/set-direction";
-import { UnlikeAnyTool } from "../components/sections/unlike-any-tool";
 
 export default function Homepage() {
   return (
