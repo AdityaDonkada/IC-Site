@@ -1,10 +1,8 @@
 import Link from "next/link";
 import { Container } from "./container";
 import { GithubIcon } from "./icons/github";
-import { Logo } from "./icons/logo";
-import { SlackIcon } from "./icons/slack";
-import { TwitterIcon } from "./icons/twitter";
-
+import { LinkedinIcon } from "./icons/linkedin";
+import { DiscordIcon } from "./icons/discord";
 const footerLinks = [
   {
     title: "Programs",
@@ -32,17 +30,23 @@ const footerLinks = [
 ];
 
 export const Footer = () => (
-  <footer className="mt-12 border-t border-transparent-white py-[5.6rem] text-sm text-blackcolor">
+  <footer className="border-t border-transparent-white py-[5.6rem] text-sm text-blackcolor bg-[radial-gradient(ellipse_100%_40%_at_50%_60%,rgba(var(--feature-color),0.1),transparent)]">
     <Container className="flex flex-col justify-between lg:flex-row">
       <div>
         <div className="flex h-full flex-row justify-between lg:flex-col">
           <div className="flex items-center text-blackcolor">
-            <Logo className="mr-4 h-4 w-4" /> ImpactCode - Designed worldwide
+            ImpactCode - Designed worldwide
           </div>
-          <div className="mt-auto flex space-x-4 text-blackcolor">
-            <TwitterIcon />
-            <GithubIcon />
-            <SlackIcon />
+          <div className="mt-auto flex space-x-4 text-blackcolor ">
+            <Link href="/">
+              <GithubIcon />
+            </Link>
+            <Link href="/">
+              <LinkedinIcon />
+            </Link>
+            <Link href="/">
+              <DiscordIcon />
+            </Link>
           </div>
         </div>
       </div>
