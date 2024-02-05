@@ -12,14 +12,14 @@ import {
 
 export const SetDirection = () => {
   return (
-    <Features color="0,225,244" colorDark="31,49,64">
+    <Features>
       <Features.Main
         title={
-          <>
+          <div className="text-blackcolor">
             Set direction
             <br />
             with Roadmaps
-          </>
+          </div>
         }
         image="/roadmap.webp"
         imageSize="large"

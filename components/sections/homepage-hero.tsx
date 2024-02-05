@@ -6,12 +6,13 @@ import { ChevronIcon } from "../icons/chevron";
 export const HomepageHero = () => (
   <Hero>
     <Button
-      className="translate-y-[-1rem] animate-fade-in opacity-0"
+      className="translate-y-[-1rem] animate-fade-in opacity-0 text-blackcolor"
       href="/"
       variant="secondary"
       size="small"
     >
-      <span>ImpactCode 2024 – Join us Now</span> <Highlight>→</Highlight>
+      <span className="text-blackcolor">ImpactCode 2024 – Join us Now</span>{" "}
+      <Highlight className="text-blackcolor">→</Highlight>
     </Button>
     <HeroTitle className="translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:200ms]">
       Let's Impact the Future
@@ -27,11 +28,10 @@ export const HomepageHero = () => (
       variant="primary"
       size="large"
     >
-      <span>Apply </span>
-      <Highlight>
+      <span className="text-blackcolor">Apply </span>
+      <Highlight className="text-blackcolor">
         <ChevronIcon />
       </Highlight>
     </Button>
-    <HeroImage />
   </Hero>
 );

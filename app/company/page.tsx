@@ -32,7 +32,7 @@ export default () => {
     <section className="py-14">
       <div className="max-w-screen-xl mx-auto px-4 text-center md:px-8">
         <div className="max-w-xl mx-auto">
-          <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
+          <h3 className="text-blackcolor text-3xl font-semibold sm:text-4xl">
             Meet our team
           </h3>
         </div>
@@ -50,15 +50,15 @@ export default () => {
                   />
                 </div>
                 <div className="mt-2">
-                  <h4 className="text-gray-700 font-semibold sm:text-xl">
+                  <h4 className="text-blackcolor font-semibold sm:text-xl">
                     {item.name}
                   </h4>
-                  <p className="text-indigo-600 text-xl">{item.title}</p>
+                  <p className="text-blackcolor text-xl">{item.title}</p>
 
-                  <div className="mt-4 flex justify-center gap-4 text-gray-400">
+                  <div className="mt-4 flex justify-center gap-4 text-blackcolor">
                     <a href={item.twitter}>
                       <svg
-                        className="w-5 h-5 duration-150 hover:text-gray-500"
+                        className="w-5 h-5 duration-150 hover:text-blackcolor"
                         fill="currentColor"
                         viewBox="0 0 48 48"
                       >
@@ -77,7 +77,7 @@ export default () => {
                     </a>
                     <a href={item.linkedin}>
                       <svg
-                        className="w-5 h-5 duration-150 hover:text-gray-500"
+                        className="w-5 h-5 duration-150 hover:text-blackcolor"
                         fill="none"
                         viewBox="0 0 48 48"
                       >

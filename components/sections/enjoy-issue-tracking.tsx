@@ -12,14 +12,14 @@ import {
 
 export const EnjoyIssueTracking = () => {
   return (
-    <Features color="194,97,254" colorDark="53,42,79">
+    <Features>
       <Features.Main
         title={
-          <>
+          <div className="text-blackcolor">
             Issue tracking
             <br />
             you'll enjoy using
-          </>
+          </div>
         }
         image="/issues.webp"
         text="Create tasks in seconds, discuss issues in context, and breeze through your work in views tailored to you and your team."

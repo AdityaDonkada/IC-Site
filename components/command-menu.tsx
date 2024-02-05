@@ -118,7 +118,7 @@ export const CommandMenu = () => {
           !opened && "translate-y-[12.8rem] opacity-60"
         )}
       >
-        <span className="ml-4 mt-2 bg-white/[0.05] px-2 text-xs leading-10 text-white/50">
+        <span className="ml-4 mt-2 bg-white/[0.05] px-2 text-xs leading-10 text-blackcolor">
           LIN-111 Walkway lightning
         </span>
         <input

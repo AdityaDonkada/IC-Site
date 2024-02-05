@@ -11,13 +11,11 @@ import { UnlikeAnyTool } from "../components/sections/unlike-any-tool";
 export default function Homepage() {
   return (
     <>
-      <div className="overflow-hidden pb-[16.4rem] md:pb-[25.6rem]">
-        <Container className="pt-[6.4rem]">
+      <div className="overflow-hidden pb-[16.4rem] md:pb-[15.6rem]">
+        <Container className="pt-[10.4rem]">
           <HomepageHero />
         </Container>
       </div>
-
-      <UnlikeAnyTool />
 
       <EnjoyIssueTracking />
       <BuildMomentum />

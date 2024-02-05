@@ -32,14 +32,14 @@ const footerLinks = [
 ];
 
 export const Footer = () => (
-  <footer className="mt-12 border-t border-transparent-white py-[5.6rem] text-sm">
+  <footer className="mt-12 border-t border-transparent-white py-[5.6rem] text-sm text-blackcolor">
     <Container className="flex flex-col justify-between lg:flex-row">
       <div>
         <div className="flex h-full flex-row justify-between lg:flex-col">
-          <div className="flex items-center text-grey">
+          <div className="flex items-center text-blackcolor">
             <Logo className="mr-4 h-4 w-4" /> ImpactCode - Designed worldwide
           </div>
-          <div className="mt-auto flex space-x-4 text-grey">
+          <div className="mt-auto flex space-x-4 text-blackcolor">
             <TwitterIcon />
             <GithubIcon />
             <SlackIcon />
@@ -57,7 +57,7 @@ export const Footer = () => (
               {column.links.map((link) => (
                 <li key={link.title} className="[&_a]:last:mb-0">
                   <Link
-                    className="mb-3 block text-grey transition-colors hover:text-off-white"
+                    className="mb-3 block text-blackcolor transition-colors hover:text-off-white"
                     href={link.href}
                   >
                     {link.title}

@@ -6,14 +6,14 @@ import { ZapIllustration } from "../illustrations/zap";
 import { KeyboardShortcuts } from "../keyboard-shortcuts";
 
 export const UnlikeAnyTool = () => (
-  <div className="text-white">
+  <div className="text-blackcolor">
     <Container>
       <div className="text-center">
         <h2 className="mb-4 text-4xl md:mb-7 md:text-7xl">
           Unlike any tool
           <br className="hidden md:inline-block" /> you've used before
         </h2>
-        <p className="mx-auto mb-12 max-w-[68rem] text-lg text-primary-text md:mb-7 md:text-xl">
+        <p className="mx-auto mb-12 max-w-[68rem] text-lg text-blackcolor md:mb-7 md:text-xl">
           Designed to the last pixel and engineered with unforgiving precision,
           ImpactCode combines UI elegance with world-class performance.
         </p>
@@ -24,7 +24,7 @@ export const UnlikeAnyTool = () => (
         <div className="relative flex min-h-[48rem] w-full shrink-0 snap-center flex-col items-center justify-end overflow-hidden rounded-[4.8rem] border border-transparent-white bg-glass-gradient p-8 text-center md:max-w-[calc(66.66%-12px)] md:basis-[calc(66.66%-12px)] md:p-14">
           <KeyboardShortcuts />
           <p className="mb-4 text-3xl">Built for your keyboard</p>
-          <p className="text-md text-primary-text">
+          <p className="text-md text-black-color">
             Fly through your tasks with rapid-fire keyboard shortcuts for
             everything. Literally everything.
           </p>
@@ -34,7 +34,7 @@ export const UnlikeAnyTool = () => (
             <ZapIllustration />
           </div>
           <p className="mb-4 text-3xl">Breathtakingly fast</p>
-          <p className="text-md text-primary-text">
+          <p className="text-md text-black-color">
             Built for speed with 50ms interactions and real-time sync.
           </p>
         </div>
@@ -43,7 +43,7 @@ export const UnlikeAnyTool = () => (
             <LogoLightIllustration />
           </div>
           <p className="mb-4 text-3xl">Designed for modern software teams</p>
-          <p className="text-md text-primary-text">
+          <p className="text-md text-black-color">
             Comes with built-in workflows that create focus and routine.
           </p>
           <Button
@@ -69,7 +69,7 @@ export const UnlikeAnyTool = () => (
           <CommandMenu />
           <div className="transition-opacity md:[.opened+&]:opacity-0">
             <p className="mb-4 text-3xl">Meet your command line</p>
-            <p className="text-md text-primary-text">
+            <p className="text-md text-black-color">
               Complete any action in seconds with the global command menu.
             </p>
           </div>

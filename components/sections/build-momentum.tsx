@@ -12,14 +12,14 @@ import {
 
 export const BuildMomentum = () => {
   return (
-    <Features color="40,87,255" colorDark="48,58,117">
+    <Features>
       <Features.Main
         title={
-          <>
+          <div className="text-blackcolor">
             Build momentum
             <br />
             with Cycles
-          </>
+          </div>
         }
         image="/cycles.webp"
         imageSize="large"

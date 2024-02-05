@@ -20,6 +20,7 @@ module.exports = {
       "8xl": ["8rem", "1.1"],
     },
     colors: {
+      blackcolor: "#000000",
       transparent: "transparent",
       white: "#fff",
       "off-white": "#f7f8f8",
