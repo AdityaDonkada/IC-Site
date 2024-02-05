@@ -35,7 +35,7 @@
     background-clip: text;
     color: transparent;
   }
-
+a
   .mask-radial-faded {
     mask-image: radial-gradient(circle at center center, black, transparent 80%)
   }
