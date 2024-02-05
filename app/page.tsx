@@ -6,6 +6,7 @@ import { Clients } from "../components/sections/clients";
 import { EnjoyIssueTracking } from "../components/sections/enjoy-issue-tracking";
 import { HomepageHero } from "../components/sections/homepage-hero";
 import { SetDirection } from "../components/sections/set-direction";
+import LogoCloud from "../components/logocloud";
 
 export default function Homepage() {
   return (
@@ -16,9 +17,10 @@ export default function Homepage() {
         </Container>
       </div>
 
+      <LogoCloud />
+
       <EnjoyIssueTracking />
       <BuildMomentum />
-      <SetDirection />
     </>
   );
 }
