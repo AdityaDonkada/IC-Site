@@ -1,15 +1,12 @@
 export const LinkedinIcon = () => (
   <svg
+    className="h-4 w-4 fill-current group-hover:rotate-[360deg]"
     xmlns="http://www.w3.org/2000/svg"
-    fill="#000000"
-    width="23"
-    height="23"
-    viewBox="0 0 19 32"
-    version="1.1"
+    role="img"
+    style={{ transition: "color 0s, transform 0.3s" }}
+    viewBox="0 0 24 24"
   >
-    <title>linkedin [#161]</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
+    <title>Linkedin</title>
     <g
       id="Page-1"
       stroke="none"
