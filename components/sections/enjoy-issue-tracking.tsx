@@ -16,45 +16,45 @@ export const EnjoyIssueTracking = () => {
       <Features.Main
         title={
           <div className="text-blackcolor">
-            Issue tracking
+            1 on 1 or
             <br />
-            you'll enjoy using
+            Group Classes
           </div>
         }
         image="/issues.webp"
-        text="Create tasks in seconds, discuss issues in context, and breeze through your work in views tailored to you and your team."
+        text="Learn from certified professionals. Get answers to your questions and stay up-to-date with the latest industry trends."
       />
       <Features.Grid
         features={[
           {
             icon: ParentSubIcon,
-            title: "Parent and sub-issues.",
-            text: "Break larger takss into smaller issues",
+            title: "Holistic Approach to Learning:",
+            text: "Break larger tasks into smaller issues",
           },
           {
             icon: AutomatedBacklogIcon,
-            title: "Automated backlog.",
-            text: "ImpactCode will auto-close and auto-archive issues.",
+            title: "Automated Learning Paths:",
+            text: "Impact Code's automated features ensure tasks are completed, and progress is tracked effortlessly.",
           },
           {
             icon: WorkflowsIcon,
-            title: "Custom workflows",
-            text: "Define unique issue states for each team.",
+            title: "Tailor-Made Learning Experiences:",
+            text: "Based on the principle that every learner is unique.",
           },
           {
             icon: CustomViewsIcon,
-            title: "Filters and custom views.",
-            text: "See only what's relevant for you.",
+            title: "Filters for Personalized Learning:",
+            text: " Stay in control of your learning environment. Use filters and custom views on Impact Code to see only what's relevant to your coding exploration",
           },
           {
             icon: DiscussionIcon,
-            title: "Discussion.",
-            text: "Collaborate on issues without losing context.",
+            title: "Real-time Discussions:",
+            text: "Engage in collaborative coding conversations seamlessly.",
           },
           {
             icon: IssuesIcon,
-            title: "Issue templates.",
-            text: "Guide your team to write effective issues.",
+            title: "Guided Learning Paths:",
+            text: "Communicate effectively and effortlessly. Impact Code's issue templates guide you through articulating your thoughts and challenges.",
           },
         ]}
       />
@@ -63,15 +63,15 @@ export const EnjoyIssueTracking = () => {
           {
             image: "/card-board.webp",
             imageClassName: "top-[55%] md:top-[40%] w-[200%]",
-            title: "List and board",
-            text: "Switch between list and board layout to view work from any angle.",
+            title: "Experienced Professionals",
+            text: "We expect all staff to demonstrate proficiency in every aspect of their teaching curriculum",
           },
           {
             image: "/card-views.webp",
             imageClassName:
               "top-[45%] left-[12px] md:top-[34%] md:left-[24px] w-[110%]",
-            title: "Make it yours",
-            text: "Quickly apply filters and operators to refine your issue lists and create custom views.",
+            title: "Robust Feedback Systems",
+            text: "Our state of the art, Feedback Systems detect and priotize learning gaps based on user behavior and performance.",
           },
         ]}
       />
