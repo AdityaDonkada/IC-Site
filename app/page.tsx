@@ -12,9 +12,7 @@ export default function Homepage() {
           <HomepageHero />
         </Container>
       </div>
-
       <LogoCloud />
-
       <EnjoyIssueTracking />
     </>
   );
