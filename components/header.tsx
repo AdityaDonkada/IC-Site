@@ -79,7 +79,9 @@ export const Header = () => {
           <Link className="mr-6 text-sm" href="#">
             Support
           </Link>
-          <Button href="https://tally.so/r/wkEZkR">Enroll With Us</Button>
+          <Button href="https://forms.gle/8PcxdYoio9fapcEm9">
+            Enroll With Us
+          </Button>
         </div>
 
         <button
