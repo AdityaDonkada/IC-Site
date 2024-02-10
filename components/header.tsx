@@ -1,5 +1,4 @@
 "use client";
-import team from "./team";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Button } from "./button";

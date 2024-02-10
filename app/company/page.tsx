@@ -12,7 +12,7 @@ export default () => {
     {
       avatar: "\Ayaan Headshot.png",
       name: "Ayaan Sidky",
-      title: "CFO",
+      title: "COO",
 
       linkedin: "javascript:void(0)",
       twitter: "javascript:void(0)",
