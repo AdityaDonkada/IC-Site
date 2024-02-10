@@ -38,13 +38,13 @@ export const Footer = () => (
             ImpactCode - Designed worldwide
           </div>
           <div className="mt-auto flex space-x-4 text-blackcolor ">
-            <Link href="/">
+            <Link href="https://github.com/AdityaDonkada/IC-Site">
               <GithubIcon />
             </Link>
-            <Link href="/">
+            <Link href="https://www.linkedin.com/company/impactcodeorg">
               <LinkedinIcon />
             </Link>
-            <Link href="/">
+            <Link href="https://discord.gg/24jDEM9E">
               <DiscordIcon />
             </Link>
           </div>
