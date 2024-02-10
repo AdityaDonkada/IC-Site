@@ -10,7 +10,7 @@ export default () => {
       twitter: "javascript:void(0)",
     },
     {
-      avatar: "https://randomuser.me/api/portraits/women/79.jpg",
+      avatar: "\Ayaan Headshot.png",
       name: "Ayaan Sidky",
       title: "CFO",
 
@@ -18,11 +18,11 @@ export default () => {
       twitter: "javascript:void(0)",
     },
     {
-      avatar: "/devom.png",
+      avatar: "/Devom Headshot.jpeg",
       name: "Devom Brahmbhatt",
-      title: "Head of IT",
+      title: "Head of Software",
 
-      linkedin: "javascript:void(0)",
+      linkedin: "https://www.linkedin.com/in/devom-brahmbhatt-223672295/",
       twitter: "javascript:void(0)",
     },
   ];
