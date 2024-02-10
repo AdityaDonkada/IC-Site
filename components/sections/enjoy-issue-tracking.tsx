@@ -12,7 +12,7 @@ import {
 
 export const EnjoyIssueTracking = () => {
   return (
-    <Features>
+    <Features color={""} colorDark={""}>
       <Features.Main
         title={
           <div className="text-blackcolor">
@@ -27,32 +27,26 @@ export const EnjoyIssueTracking = () => {
       <Features.Grid
         features={[
           {
-            icon: ParentSubIcon,
             title: "Holistic Approach to Learning:",
             text: "Break larger tasks into smaller issues",
           },
           {
-            icon: AutomatedBacklogIcon,
             title: "Automated Learning Paths:",
             text: "Impact Code's automated features ensure tasks are completed, and progress is tracked effortlessly.",
           },
           {
-            icon: WorkflowsIcon,
             title: "Tailor-Made Learning Experiences:",
             text: "Based on the principle that every learner is unique.",
           },
           {
-            icon: CustomViewsIcon,
             title: "Filters for Personalized Learning:",
             text: " Stay in control of your learning environment. Use filters and custom views on Impact Code to see only what's relevant to your coding exploration",
           },
           {
-            icon: DiscussionIcon,
             title: "Real-time Discussions:",
             text: "Engage in collaborative coding conversations seamlessly.",
           },
           {
-            icon: IssuesIcon,
             title: "Guided Learning Paths:",
             text: "Communicate effectively and effortlessly. Impact Code's issue templates guide you through articulating your thoughts and challenges.",
           },
