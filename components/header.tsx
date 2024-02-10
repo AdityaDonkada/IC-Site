@@ -80,7 +80,7 @@ export const Header = () => {
           <Link className="mr-6 text-sm" href="#">
             Support
           </Link>
-          <Button href="#">Apply</Button>
+          <Button href="https://tally.so/r/wkEZkR">Apply</Button>
         </div>
 
         <button

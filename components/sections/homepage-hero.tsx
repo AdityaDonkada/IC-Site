@@ -28,7 +28,7 @@ export const HomepageHero = () => (
       variant="primary"
       size="large"
     >
-      <span className="text-blackcolor">Apply </span>
+      <span className="text-blackcolor" href="https://tally.so/r/wkEZkR">Apply </span>
       <Highlight className="text-blackcolor">
         <ChevronIcon />
       </Highlight>
