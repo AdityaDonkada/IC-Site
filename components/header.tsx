@@ -69,7 +69,7 @@ export const Header = () => {
                 <Link href="#">Donate</Link>
               </li>
               <li>
-                <Link href="/company">Company</Link>
+                <Link href="/about">About Us</Link>
               </li>
             </ul>
           </nav>
