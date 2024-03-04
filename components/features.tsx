@@ -58,7 +58,7 @@ const MainFeature = ({
             imageSize === "small" ? "w-[78rem]" : "w-[102.4rem]"
           )}
         >
-          <h2 className="text-black-color mb-11 translate-y-[40%] pt-[12rem] text-center text-6xl [transition:transform_1000ms_cubic-bezier(0.3,_1.17,_0.55,_0.99)_0s] md:pt-0 md:text-8xl [.is-visible_&]:translate-y-0">
+          <h2 className="text-black-color mb-11 translate-y-[40%] pt-[3rem] text-center text-6xl [transition:transform_1000ms_cubic-bezier(0.3,_1.17,_0.55,_0.99)_0s] md:pt-0 md:text-8xl [.is-visible_&]:translate-y-0">
             {title}
           </h2>
           <div className="relative z-10 rounded-[14px] backdrop-blur-[6px] before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:bg-[linear-gradient(rgba(255,_255,_255,_0.3),_rgba(255,_255,_255,_0)_120%)] before:p-[1px] before:[mask:linear-gradient(black,_black)_content-box_content-box,_linear-gradient(black,_black)] before:[mask-composite:xor] after:pointer-events-none after:absolute after:inset-0 after:rounded-[inherit] after:bg-[rgba(255,_255,_255,_0.15)] after:[mask:linear-gradient(black,transparent)]">
@@ -87,15 +87,12 @@ const FeatureGrid = ({ features }: FeatureGridProps) => {
   return (
     <Container>
       <div className="mb-16 grid w-full grid-cols-2 place-items-center gap-y-9 text-sm text-blackcolor md:mb-[14rem] md:grid-cols-3 md:text-md">
-        {features.map(({ title, text, }) => (
+        {features.map(({ title, text }) => (
           <div
             className="max-w-[25.6rem] [&_svg]:mb-[4px] md:[&_svg]:mr-[6px] md:[&_svg]:mb-[2px] md:[&_svg]:inline"
             key={title}
           >
-            
-            <span className="block text-blackcolor md:inline">
-              {title}
-            </span>{" "}
+            <span className="block text-blackcolor md:inline">{title}</span>{" "}
             {text}
           </div>
         ))}

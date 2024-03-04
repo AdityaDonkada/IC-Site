@@ -4,7 +4,9 @@ const LogoCloud = () => {
     <div className=" pt-[4rem]">
       <div className="mx-auto max-w-screen-xl px-4 md:px-8">
         <p className="mb-[1rem] text-center text-lg text-blackcolor md:text-xl">
-          <span className="text-blackcolor">Thank You to our Partners</span>
+          <span className="text-blackcolor text-7xl">
+            Thank You to our Partners
+          </span>
           <br className="hidden md:block" />
         </p>
         <div className="mt-6">

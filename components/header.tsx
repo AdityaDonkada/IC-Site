@@ -64,7 +64,9 @@ export const Header = () => {
               <li>
                 <Link href="#">Programs</Link>
               </li>
-
+              <li>
+                <Link href="https://tally.so/r/wkEZkR">Careers</Link>
+              </li>
               <li>
                 <Link href="#">Donate</Link>
               </li>

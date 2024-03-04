@@ -15,7 +15,7 @@ export const EnjoyIssueTracking = () => {
     <Features color={""} colorDark={""}>
       <Features.Main
         title={
-          <div className="text-blackcolor">
+          <div className="text-blackcolor mb-[2rem]">
             1 on 1 or
             <br />
             Group Classes
