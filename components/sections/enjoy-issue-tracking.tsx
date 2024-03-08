@@ -27,28 +27,28 @@ export const EnjoyIssueTracking = () => {
       <Features.Grid
         features={[
           {
-            title: "Holistic Approach to Learning:",
-            text: "Break larger tasks into smaller issues",
+            title: "",
+            text: "What is Impact Code?",
           },
           {
-            title: "Automated Learning Paths:",
-            text: "Impact Code's automated features ensure tasks are completed, and progress is tracked effortlessly.",
+            title: "",
+            text: "Why should you choose Impact Code?",
           },
           {
-            title: "Tailor-Made Learning Experiences:",
-            text: "Based on the principle that every learner is unique.",
+            title: "",
+            text: "What exactly do we offer?",
           },
           {
-            title: "Filters for Personalized Learning:",
-            text: " Stay in control of your learning environment. Use filters and custom views on Impact Code to see only what's relevant to your coding exploration",
+            title: "",
+            text: " Stay in control of your learning environment. Use filters and custom views on Impact Code to see only what's relevant to your coding exploration.",
           },
           {
-            title: "Real-time Discussions:",
-            text: "Engage in collaborative coding conversations seamlessly.",
+            title: "",
+            text: "We provide real time features with no cost that anyone can take advantage of. Here at impact code, we value student’s learning and happiness over all, ensuring proper growth and companionship along the way.",
           },
           {
-            title: "Guided Learning Paths:",
-            text: "Communicate effectively and effortlessly. Impact Code's issue templates guide you through articulating your thoughts and challenges.",
+            title: "",
+            text: "Impact Code is a learning haven for everything computer science. Learn how to utilize your coding skills and pave the way for your future in the software industry!",
           },
         ]}
       />

@@ -6,7 +6,7 @@ export default () => {
       name: "Aditya Donkada",
       title: "CTO",
 
-      linkedin: "javascript:void(0)",
+      linkedin: "https://www.linkedin.com/in/bhim-prasad-aditya-donkada-b51a11290/",
       twitter: "javascript:void(0)",
     },
     {
@@ -14,7 +14,7 @@ export default () => {
       name: "Ayaan Sidky",
       title: "COO",
 
-      linkedin: "javascript:void(0)",
+      linkedin: "https://www.linkedin.com/in/ayaan-sidky-15508927b/",
       twitter: "javascript:void(0)",
     },
     {
@@ -31,6 +31,9 @@ export default () => {
     <section className="py-14">
       <div className="max-w-screen-xl mx-auto px-4 text-center md:px-8">
         <div className="max-w-xl mx-auto">
+          <h2 className="text-blackcolor text-3xl font-semibold sm:text-2xl">
+            ImpactCode is a dynamic 501(c)(3) non-profit organization with a clear-cut mission: to provide the younger generation with essential coding skills and valuable opportunities while simultaneously educating them about the incredible world of artificial intelligence. We believe that equipping today's youth with these fundamental skills is key to preparing them for the ever-evolving tech-centric landscape of the future.
+          </h2>
           <h3 className="text-blackcolor text-3xl font-semibold sm:text-4xl">
             Meet our team
           </h3>
@@ -39,7 +42,7 @@ export default () => {
           <ul className="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
             {team.map((item, idx) => (
               <li key={idx}>
-                <div className="w-24 h-24 mx-auto">
+                <div className="w-20 h-20 mx-auto">
                   <img
                     src={item.avatar}
                     className="w-full h-full rounded-full"

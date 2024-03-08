@@ -16,14 +16,14 @@ const footerLinks = [
   {
     title: "Donate",
     links: [
-      { title: "", href: "#" },
-      { title: "Support Us", href: "#" },
+      { title: "", href: "https://gofund.me/7a5e802c" },
+      { title: "Support", href: "#" },
     ],
   },
   {
     title: "Company",
     links: [
-      { title: "About Us", href: "#" },
+      { title: "About Us", href: "/about" },
       { title: "Community", href: "#" },
       { title: "Terms of service", href: "#" },
     ],
