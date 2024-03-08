@@ -68,7 +68,7 @@ export const Header = () => {
                 <Link href="https://tally.so/r/wkEZkR">Careers</Link>
               </li>
               <li>
-                <Link href="#">Donate</Link>
+                <Link href="https://gofund.me/7a5e802c">Donate</Link>
               </li>
               <li>
                 <Link href="/about">About Us</Link>

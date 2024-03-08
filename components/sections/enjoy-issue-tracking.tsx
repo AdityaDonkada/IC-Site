@@ -22,7 +22,7 @@ export const EnjoyIssueTracking = () => {
           </div>
         }
         image="/issues.webp"
-        text="Learn from certified professionals. Get answers to your questions and stay up-to-date with the latest industry trends."
+        text="Learn from specialized courses to stay up-to-date with the latest industry trends."
       />
       <Features.Grid
         features={[
