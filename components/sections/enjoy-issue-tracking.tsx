@@ -16,13 +16,13 @@ export const EnjoyIssueTracking = () => {
       <Features.Main
         title={
           <div className="text-blackcolor mb-[2rem]">
-            1 on 1 or
+            Learn from
             <br />
-            Group Classes
+            Specialized Courses
           </div>
         }
         image="/issues.webp"
-        text="Learn from specialized courses to stay up-to-date with the latest industry trends."
+        text="Stay up-to-date with the latest industry trends to be best prepared for the future."
       />
       <Features.Grid
         features={[
