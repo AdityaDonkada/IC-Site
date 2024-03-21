@@ -10,7 +10,7 @@ const footerLinks = [
       { title: "Our Programs", href: "#" },
       { title: "Integrations", href: "#" },
       { title: "Changelog", href: "#" },
-      { title: "Apply", href: "https://tally.so/r/wkEZkR" },
+      { title: "Apply", href: "https://tally.so/r/wzqxJE" },
     ],
   },
   {
