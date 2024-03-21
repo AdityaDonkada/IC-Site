@@ -1,7 +1,7 @@
 "use client";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Button, Highlight } from "./button";
-import { KeyboardIllustration } from "./illustrations/keyboard";
+import { KeyboardIllustration } from "./icons/illustrations/keyboard";
 
 const shortcuts = [
   { text: "Opens command line", keys: "⌘k" },

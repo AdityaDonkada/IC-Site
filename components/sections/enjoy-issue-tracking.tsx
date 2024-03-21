@@ -21,7 +21,7 @@ export const EnjoyIssueTracking = () => {
             Specialized Courses
           </div>
         }
-        image="/issues.webp"
+        image="/Teacher-Image.png"
         text="Stay up-to-date with the latest industry trends to be best prepared for the future."
       />
       <Features.Grid
