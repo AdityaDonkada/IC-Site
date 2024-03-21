@@ -29,7 +29,7 @@ export const Header = () => {
   }, [setHamburgerMenuIsOpen]);
 
   return (
-    <header className="fixed top-0 left-0 z-10 w-full border-b border-transparent-white backdrop-blur-[12px]">
+    <header className="fixed top-0 left-0 z-10 w-full">
       <Container className="flex h-navigation-height">
         <Link className="flex items-center text-md" href="/">
           <Image
@@ -57,8 +57,8 @@ export const Header = () => {
           >
             <ul
               className={classNames(
-                "flex h-full flex-col md:flex-row md:items-center [&_li]:ml-6 [&_li]:border-b [&_li]:border-grey-dark md:[&_li]:border-none",
-                "ease-in [&_a:hover]:text-blackcolor [&_a]:flex [&_a]:h-navigation-height [&_a]:w-full [&_a]:translate-y-8 [&_a]:items-center [&_a]:text-lg [&_a]:transition-[color,transform] [&_a]:duration-300 md:[&_a]:translate-y-0 md:[&_a]:text-sm [&_a]:md:transition-colors",
+                "flex h-full flex-col md:flex-row md:items-center [&_li]:ml-6 text-blackcolor bg-green",
+                " [&_a]:flex [&_a]:h-navigation-height [&_a]:w-full [&_a]:translate-y-8 [&_a]:items-center [&_a]:text-lg [&_a]:transition-[color,transform] [&_a]:duration-300 md:[&_a]:translate-y-0 md:[&_a]:text-sm ",
                 hamburgerMenuIsOpen && "[&_a]:translate-y-0"
               )}
             >
@@ -79,12 +79,7 @@ export const Header = () => {
         </div>
 
         <div className="ml-auto flex h-full items-center text-blackcolor">
-          <Link className="mr-6 text-sm" href="#">
-            Support
-          </Link>
-          <Button href="https://tally.so/r/wzqxJE">
-            Enroll with us
-          </Button>
+          <Button href="https://tally.so/r/wzqxJE">Enroll with us</Button>
         </div>
 
         <button

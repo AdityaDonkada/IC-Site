@@ -21,6 +21,7 @@ module.exports = {
     },
     colors: {
       zinc: "#6b7280",
+      green: "#9ce17b",
       blackcolor: "#000000",
       transparent: "transparent",
       white: "#fff",

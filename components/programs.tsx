@@ -21,11 +21,11 @@ const classNamees = () => {
                 Exploring Computer Science
               </h2>
               <p className="text-gray-700 dark:text-gray-300 text-md">
-                "Exploring Computer Science is an engaging course designed for
+                Exploring Computer Science is an engaging course designed for
                 young learners, offering a fun introduction to computer science
                 concepts. Through interactive activities on code.org, students
                 delve into the basics of JavaScript programming, fostering early
-                interest and understanding in the world of computing."
+                interest and understanding in the world of computing.
               </p>
             </div>
             <span className="absolute w-32 aspect-square -bottom-16 -right-16 bg-sky-600/10 rounded-full"></span>

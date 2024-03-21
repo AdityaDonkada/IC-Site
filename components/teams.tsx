@@ -13,7 +13,7 @@ const TeamComponent = () => {
       title: "CEO",
     },
     {
-      avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+      avatar: "/aryan.jpg",
       name: "Aryan Wadhera",
       title: "COO",
     },
