@@ -1,6 +1,6 @@
 # Project Title: IC-Site
 
-## Description@
+## Description
 IC-Site is a simple website template designed for showcasing individual or small team portfolios, personal blogs, or project documentation. It provides a clean and modern layout, making it easy to navigate and customize according to your preferences. The template utilizes Next.JS, TypeScript, and PNPM package manager, offering flexibility for customization and scalability for future enhancements.
 
 ## Features
