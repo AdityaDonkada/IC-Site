@@ -1,7 +1,7 @@
 # Project Title: IC-Site
 
-## Description
-IC-Site is a simple website template designed for showcasing individual or small team portfolios, personal blogs, or project documentation. It provides a clean and modern layout, making it easy to navigate and customize according to your preferences. The template utilizes HTML, CSS, and JavaScript, offering flexibility for customization and scalability for future enhancements.
+## Description@
+IC-Site is a simple website template designed for showcasing individual or small team portfolios, personal blogs, or project documentation. It provides a clean and modern layout, making it easy to navigate and customize according to your preferences. The template utilizes Next.JS, TypeScript, and PNPM package manager, offering flexibility for customization and scalability for future enhancements.
 
 ## Features
 - **Responsive Design:** Ensures optimal viewing experience across a wide range of devices.
@@ -37,10 +37,11 @@ Contributions to improve the template or fix issues are welcome. To contribute:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Credits
-- Aditya Donkada - Creator of IC-Site template
+- Aditya Donkada - Creator and Lead Developer
+- Devom Brahmbhatt - Assistant Developer
 
 ## Contact
-For any inquiries or support, please contact Aditya Donkada at [email@example.com](mailto:email@example.com).
+For any inquiries or support, join the dedicated [Discord](https://discord.gg/F2DGWE7E) server.
 
 ## Acknowledgments
 - Special thanks to the creators of the libraries and frameworks used in this template.
