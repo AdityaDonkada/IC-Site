@@ -11,7 +11,7 @@ export const HomepageHero = () => (
       <br className="hidden md:block" />
     </HeroTitle>
     <HeroSubtitle className="translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:400ms]">
-      Turning Passion into Profession
+      Using AI to Change Education
       <br className="hidden md:block" />
     </HeroSubtitle>
     <Button

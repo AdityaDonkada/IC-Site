@@ -2,7 +2,8 @@ import { Container } from "../components/container";
 import { EnjoyIssueTracking } from "../components/sections/enjoy-issue-tracking";
 import { HomepageHero } from "../components/sections/homepage-hero";
 import LogoCloud from "../components/logocloud";
-
+import { Features } from "../components/features";
+import Classes from "../components/teacher";
 export default function Homepage() {
   return (
     <>

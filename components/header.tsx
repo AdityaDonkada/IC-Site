@@ -62,7 +62,7 @@ export const Header = () => {
               )}
             >
               <li>
-                <Link href="#">Programs</Link>
+                <Link href="/programs">Programs</Link>
               </li>
               <li>
                 <Link href="https://tally.so/r/wkEZkR">Careers</Link>
