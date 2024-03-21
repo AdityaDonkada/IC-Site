@@ -7,6 +7,7 @@ import { HamburgerIcon } from "./icons/hamburger";
 import { Logo } from "./icons/logo";
 import classNames from "classnames";
 import Image from "next/image";
+
 export const Header = () => {
   const [hamburgerMenuIsOpen, setHamburgerMenuIsOpen] = useState(false);
 
@@ -81,8 +82,8 @@ export const Header = () => {
           <Link className="mr-6 text-sm" href="#">
             Support
           </Link>
-          <Button href="https://forms.gle/8PcxdYoio9fapcEm9">
-            Enroll With Us
+          <Button href="https://tally.so/r/wzqxJE">
+            Enroll with us
           </Button>
         </div>
 
