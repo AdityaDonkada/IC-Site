@@ -1,4 +1,4 @@
-import Classes from "../../components/teacher";
+import Classes from "../../components/programs";
 export default () => {
   return (
     <div className="py-14">

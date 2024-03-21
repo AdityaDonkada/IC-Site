@@ -3,13 +3,12 @@ import React from "react";
 const TeamComponent = () => {
   const team = [
     {
-      avatar:
-        "https://images.unsplash.com/photo-1511485977113-f34c92461ad9?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&ixid=eyJhcHBfaWQiOjE3Nzg0fQ",
+      avatar: "/adityadonkada.png",
       name: "Aditya Donkada",
       title: "CTO",
     },
     {
-      avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+      avatar: "/Ayaan Headshot.png",
       name: "Ayaan Sidky",
       title: "CEO",
     },

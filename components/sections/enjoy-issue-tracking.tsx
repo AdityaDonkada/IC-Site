@@ -1,12 +1,13 @@
 "use client";
 import { Features } from "../features";
 import FeaturesComponent from "../featurecomponent";
-import Classes from "../teacher";
+import Classes from "../programs";
+import HomeTeacher from "../hometeacher";
 
 export const EnjoyIssueTracking = () => {
   return (
     <div>
-      <Classes />
+      <HomeTeacher />
 
       <Features color={""} colorDark={""}>
         <Features.Grid
